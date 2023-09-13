@@ -16,7 +16,7 @@ abstract class UserDataSource {
 }
 
 class UserLocalDatasource extends UserDataSource {
-  UserLocalDatasource(this.stroageService);
+  UserLocalDatasource(this.storageService);
 
   final StroageService stroageService;
 
